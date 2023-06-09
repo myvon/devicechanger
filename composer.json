@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Myvon\\DeviceChanger\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.6",
+        "mockery/mockery": "^1.5",
+        "ovh/ovh": "^3.2"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
