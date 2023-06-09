@@ -1,4 +1,20 @@
 {
+    "name": "myvon/devicechanger",
+    "description": "This package allow to send a link through any method and check if the user has sent the data needed.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Morgan YVON",
+            "email": "morgan@elysaa.net"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage-html coverage",
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Myvon\\DeviceChanger\\": "src/"
